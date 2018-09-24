@@ -1,0 +1,43 @@
+#contactSlide{
+  color: #999;
+  font-size: 20px;
+
+  #contactHeader{
+    display: flex;
+    justify-content: center;
+    div{
+      padding: 60px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #999;
+    }
+  }
+  #contactContainer {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+
+    div{
+      flex: 1;
+      margin: 10px;
+
+      a{
+        img{
+          width: 50px;
+          border-radius: 5px;
+          margin: 10px;
+        }
+      }
+    }
+
+    div#contactInfo{
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    div#contactLinks{
+      text-align: right;
+    }
+  }
+
+
+}
