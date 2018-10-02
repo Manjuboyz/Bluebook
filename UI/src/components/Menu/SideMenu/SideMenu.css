@@ -1,0 +1,21 @@
+.fadeBackground{
+  position: fixed;
+  background: rgba(0,0,0,0.5);
+  z-index: 49;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.sideMenuContainer{
+  position: fixed;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+  min-width: 300px;
+  border: 1px solid #999;
+  background: #fff;
+  z-index: 100;
+}

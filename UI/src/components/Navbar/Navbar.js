@@ -10,10 +10,10 @@ export default class Navbar extends React.Component {
     return (<nav>
       <span id="name"><a href="#introSlide">Apurv</a></span>
       <span id="navItems">
-      <a href="#introSlide">Home</a>
-      <a href="#skillsSlide">Technical Skills</a>
-      <a href="#resumeSlide">Resume</a>
-      <a href="#contactSlide">Contact</a>
+      <a href="#introSlide">A</a>
+      <a href="#skillsSlide">B Skills</a>
+      <a href="#resumeSlide">C</a>
+      <a href="#contactSlide">D</a>
       </span>
     </nav>
   );
